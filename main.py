@@ -10,7 +10,7 @@ Dont use more than 10 or ur pc will get raped""")
 
 
 def generator(num):
-    res = itertools.product("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!§$%&/()=?{[]}#", repeat=num)
+    res = itertools.product("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!$%&/()=?{[]}#", repeat=num)
     i = 0
     for pwd in res: 
         print (''.join(pwd),"Number:",i)
